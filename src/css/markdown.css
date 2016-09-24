@@ -12,7 +12,6 @@
 .hack h6,
 .hack code,
 .hack blockquote,
-.hack em,
 .hack strong,
 .hack code {
   font-size: 1rem;
@@ -136,11 +135,6 @@
   top: 0;
   left: 0;
   line-height: 20px;
-}
-.hack em:before,
-.hack em:after {
-  content: "*";
-  display: inline;
 }
 .hack pre code:before,
 .hack pre code:after {
